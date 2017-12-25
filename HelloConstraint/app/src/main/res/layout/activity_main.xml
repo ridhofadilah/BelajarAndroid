@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.user.helloConstraint.com.example.user.helloConstraint.MainActivity"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="944dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="showToast"
+        android:text="Toast"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="960dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="944dp"
+        android:layout_height="352dp"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="48dp"
+        tools:layout_conversion_absoluteWidth="960dp"
+        tools:layout_conversion_absoluteHeight="368dp"
+        tools:layout_editor_absoluteY="56dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="944dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="countUp"
+        android:text="Count"
+        android:textColor="@android:color/white"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="416dp"
+        tools:layout_conversion_absoluteWidth="960dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="416dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</android.support.constraint.ConstraintLayout>
