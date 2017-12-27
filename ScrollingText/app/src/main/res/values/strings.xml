@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Belajar Android Studio</string>
+    <string name="article_subtitle">Step 1: Layout</string>
+    <string name="article_text">40-01\n
+======\n
+-NNA\n
+Ati Waja Galvanis\n
+Muhammad Hasbi Abdul Maajid\n
+Reinaldo Kenneth Darmawan\n
+\n
+- HFR\n
+Kinegar Hadinawa\n
+Rezza Nafi Ismail\n
+Arya Prima Putra\n
+\n
+40-03\n
+======\n
+- FZG\n
+Aditya SC\n
+Muhammad Restu\n
+Fatahillah K\n
+Risfa Ayantiwi\n
+\n
+- EGA\n
+MUHAMMAD FAUZAN RAHMAN\n
+WASKITHA GHAZIADIYATA\n
+TIARA IVA MAJOLI\n
+FAIQ ASKHABI RAMADHAN\n
+\n
+40-06\n
+=====\n
+-LIF\n
+Aulia widya clara\n
+\n
+40-07\n
+=====\n
+- SEN\n
+Tengku Muhammad Risky\n
+Haldis Aznal Faizy\n
+ade naufal febrianto\n
+Muhamad Shafwan Fauzi\n
+\n
+- KHM\n
+Muhammad Lutfi Hidayat\n
+Moch Prima Manggala Agustya\n
+Hardiansyah Shidek\n
+\n
+- UGI\n
+Fadhil Nurhamdani\n
+Jamal Akbar Alam\n
+Nanda Firmansyah\n
+Rafi Ali Rachmadi\n
+\n
+- NSH\n
+Muhammad Ferianda Satya\n
+Redy Indrawan\n
+Karina Aulia Dini\n
+Arizona Zulkarnain\n
+\n
+40-08\n
+=====\n
+- FZG\n
+Fadilah Rizka R.P.\n
+Arif Sumanggara\n
+Rezha A.H\n
+\n
+40-10\n
+=====\n
+- SDI\n
+IRFAN ARDIANSYAH\n
+DIRGA FIDYA WIRATAMA\n
+WINA FINKA\n
+MUHAMMAD REZA RAHMAWAN\n
+\n
+-NSH\n
+Rizqi Atikah K\n
+Kurnia Rizky M\n
+M. Afif Amanullah F\n
+Muhammad Sandika Alam\n
+\n
+ www.google.com</string>
+</resources>
