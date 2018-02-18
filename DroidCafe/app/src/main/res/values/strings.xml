@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro_text">Droid Desserts</string>
+    <string name="choose_dessert">Choose a dessert</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="icecream">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="donutsMessage">You ordered a donut</string>
+    <string name="icecreamMessage">You ordered an icecream</string>
+    <string name="froyoMessage">You order a froyo</string>
+    <string name="order_intro_text">Choose a delivery method:</string>
+    <string name="sameday">Same day messenger service</string>
+    <string name="nextday">next day delivery service</string>
+    <string name="pickup">pickup service</string>
+    <string name="chosen">Chosen: </string>
+    <string name="nothing_clicked">onRadioButton: nothing clicked</string>
+    <string name="contact">Contact</string>
+    <string name="order">Order</string>
+    <string name="status">Status</string>
+    <string name="favorites">Favorites</string>
+    <string name="contactMessage">you selected Contact</string>
+    <string name="orderMessage">you selected Order</string>
+    <string name="statusMessage">you selected Status</string>
+    <string name="favoritesMessage">you selected Favorites</string>
+    <string name="title_order_activity">Order Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_account">Account</string>
+
+    <string name="pref_title_market">Market</string>
+    <string-array name="pref_market_titles">
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>England</item>
+        <item>Spain</item>
+        <item>Germany</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_market_values">
+        <item>IDR</item>
+        <item>JP</item>
+        <item>UK</item>
+        <item>SP</item>
+        <item>GR</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_account_setting">Account settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="settings">Settings</string>
+</resources>

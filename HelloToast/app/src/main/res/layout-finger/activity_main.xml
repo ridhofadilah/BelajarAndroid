@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
-    tools:context="com.example.user.hellotoast.MainActivity"
+    tools:context="com.example.user.helloToast.com.example.user.helloRelative.MainActivity"
     android:weightSum="1">
 
     <Button

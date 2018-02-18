@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.implicitintents.MainActivity">
+
+    <EditText
+        android:id="@+id/editText_uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_uri"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_uri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openWebsite"
+        android:text="@string/button_uri"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/editText_uri"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <EditText
+        android:id="@+id/editText_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_loc"
+        android:layout_above="@+id/button_loc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/button_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_loc"
+        android:onClick="openLocation"
+        android:layout_above="@+id/editText_share"
+        android:layout_alignLeft="@+id/button_uri"
+        android:layout_alignStart="@+id/button_uri"
+        android:layout_marginBottom="72dp" />
+
+    <EditText
+        android:id="@+id/editText_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_share"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/button_share"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:text="@string/button_share"
+        android:onClick="shareText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_loc"
+        android:layout_alignStart="@+id/button_loc" />
+</RelativeLayout>

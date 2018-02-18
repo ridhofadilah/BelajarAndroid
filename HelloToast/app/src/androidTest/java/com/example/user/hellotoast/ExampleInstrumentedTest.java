@@ -1,4 +1,4 @@
-package com.example.user.hellotoast;
+package com.example.user.helloToast;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

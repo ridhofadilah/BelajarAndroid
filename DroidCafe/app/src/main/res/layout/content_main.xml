@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.droidcafe.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_text"
+        android:textSize="@dimen/textHeading"
+        android:padding="@dimen/padding_regular"
+        android:id="@+id/textIntro"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:layout_below = "@id/textIntro"
+        android:id="@+id/chooseDesert"
+        android:text= "@string/choose_dessert"/>
+
+    <ImageView
+        android:id="@+id/donuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseDesert"
+        android:contentDescription="@string/donuts"
+        android:cropToPadding="false"
+        android:onClick="donutFoodOrder"
+        android:padding="@dimen/padding_regular"
+        android:src="@drawable/donut_circle"
+        android:scaleType="fitCenter"
+        android:maxHeight="@dimen/maxheighwight"
+        android:maxWidth="@dimen/maxheighwight"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below= "@id/chooseDesert"
+        android:layout_toRightOf = "@id/donuts"
+        android:text="@string/donuts"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:id="@+id/icecream"
+        android:layout_below = "@id/donuts"
+        android:src="@drawable/icecream_circle"
+        android:contentDescription="@string/icecream"
+        android:onClick="icecreamFoodOrder"
+        android:maxHeight="@dimen/maxheighwight"
+        android:maxWidth="@dimen/maxheighwight"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below = "@id/donuts"
+        android:layout_toRightOf = "@id/icecream"
+        android:text="@string/icecream"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:id="@+id/froyo"
+        android:layout_below = "@+id/icecream"
+        android:src="@drawable/froyo_circle"
+        android:contentDescription="@string/froyo"
+        android:onClick="froyoFoodOrder"
+        android:maxHeight="@dimen/maxheighwight"
+        android:maxWidth="@dimen/maxheighwight"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below = "@id/icecream"
+        android:layout_toRightOf = "@id/froyo"
+        android:text="@string/froyo"/>
+
+
+</RelativeLayout>

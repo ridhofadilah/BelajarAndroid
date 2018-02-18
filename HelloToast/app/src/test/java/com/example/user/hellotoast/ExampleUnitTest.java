@@ -1,4 +1,4 @@
-package com.example.user.hellotoast;
+package com.example.user.helloToast;
 
 import org.junit.Test;
 

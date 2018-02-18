@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notification Scheduler</string>
+    <string name="jobService">Job Service</string>
+    <string name="jobRunning">Your job is running!</string>
+    <string name="required_network_type">Required Network Type</string>
+    <string name="noNetwork">None</string>
+    <string name="any">Any</string>
+    <string name="wifi">WIFI</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="cancel">Cancel Job</string>
+    <string name="jobScheduled">Job scheduled</string>
+    <string name="jobCanceled">Job Canceled</string>
+    <string name="no_constraint">No Constraint</string>
+    <string name="requires">requires:</string>
+    <string name="idle">Device idle</string>
+    <string name="Charging">Device Charging</string>
+    <string name="override_deadline">Override Deadline:</string>
+    <string name="notSet">Not Set</string>
+    <string name="periodic">Periodic</string>
+    <string name="periodic_interval">Periodic Interval: </string>
+    <string name="setPeriodic">Please set a periodic interval</string>
+</resources>
